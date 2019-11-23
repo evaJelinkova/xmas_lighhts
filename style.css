@@ -1,0 +1,60 @@
+/* xmas_lights */
+.duha {
+  background: linear-gradient(#092327, #0B5351, #00A9A5, #4E8098, #90C2E7);
+}
+.lights {height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  animation-iteration-count: infinite;
+}
+.line-1{
+  display: flex;
+  flex-flow: row;
+}
+.line-2{
+  display: flex;
+  flex-flow: row;
+}
+.line-3{
+  display: flex;
+  flex-flow: row;
+}
+.l1 {margin-top: 10%;
+    margin-left: 10%;}
+.l2 {margin-top: 20%;
+    margin-left: 20%;}
+.l3 {margin-top: 13%;
+    margin-left: 25%;}
+.l4 {margin-top: 17%;
+    margin-left: 30%;}
+.l5 {margin-top: 15%;
+    margin-left: 6%;}
+.l6 {margin-top: 7%;
+    margin-left: 10%;}
+.l7 {margin-top: 33%;
+    margin-left: 20%;}
+.l8 {margin-top: 13%;
+    margin-left: 10%;}
+.l9 {margin-top: 11%;
+    margin-left: 12%;}
+.l10 {margin-top: 20%;
+    margin-left: 5%;}
+.l11 {margin-top: 23%;
+    margin-left: 35%;}
+.l12 {margin-top: 8%;
+    margin-left: 25%;}
+
+.lightblue{background-color: blue; animation-name: sparkle-1; animation-duration: 1s;}
+.lightred{background-color: red; animation-name: sparkle-2; animation-duration: 1s;}
+.lightgreen{background-color: green; animation-name: sparkle-1; animation-duration: 1s;}
+.lightyellow{background-color: #F7A072; animation-name: sparkle-2; animation-duration: 1s;}
+
+@keyframes
+sparkle-1{50%{
+  transform: scale(0.5);
+  opacity: 0.5;
+  }}
+@keyframes sparkle-2 {20%{
+  transform: scale(0.5);
+  opacity: 0.5;
+  }}
